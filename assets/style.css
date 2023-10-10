@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "DragonHunter", sans-serif;
+    src: url(./fonts/DragonHunter-9Ynxj.otf);
+}
+
+h1 {
+    font-family: "DragonHunter";
+    text-shadow: 5px 5px maroon;
+    color: white;
+
+}
+
+.imageBG {
+    background-image: url("./images/03-DndSplash.webp");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quote {
+    font-size: 50px;
+    font-family: "DragonHunter";
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    text-shadow: 5px 5px maroon;
+    color: white;
+  }
+
+p {
+    color: maroon;
+    font-family: "DragonHunter";
+    font-size: 20px;
+}
+
+
+.savedCharacters{
+    color: maroon;
+    font-family: "DragonHunter";
+    font-size: 20px;
+}
+
+.imageBG {
+    background-image: url("./images/03-DndSplash.webp");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quote {
+    font-size: 50px;
+    font-family: "DragonHunter";
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    text-shadow: 5px 5px maroon;
+    color: white;
+  }
+
+p {
+    color: maroon;
+    font-family: "DragonHunter";
+    font-size: 20px;
+}
+
+.column {
+    box-shadow: 5px 5px black;
+    border-radius: 10px 10px;
+    border: 5px solid maroon;
+}
+
+
+.button:hover{
+    background-color: gray;
+}
+
+.modal-content {
+    
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    color: maroon;
+    font-family: "DragonHunter";
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px 10px;
+    border: 5px solid maroon;
+  }
+
+  .highlight {
+    
+    color: rgb(247, 68, 68);
+
+    font-weight: bold;
+  }
+
+  .highlight1 {
+    color: rgb(141, 109, 4);
+
+    font-weight: bold;
+  }
+
+  .highlight2 {
+    color: rgb(105, 133, 4);
+
+    font-weight: bold;
+  }
+
+  .highlight3 {
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+  }
+
+  .btnfix{
+    flex: auto;
+    margin-top: 50%;
+    align-content: end;
+   
+  }
+
+  
